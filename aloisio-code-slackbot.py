@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 def generate_response(thread_id, user_message, user_name):
-  url = f"https://g4ai.onrender.com/api/v1/prediction/{os.environ['FLOWISE_CANVA_ID']}"
+  url = f"https://g4ai.onrender.com/api/v1/prediction/{os.environ['FLOWISE_CANVA_ID_Isaque']}"
   headers = {
       "Content-Type": "application/json",
       "Authorization": f"Bearer {os.environ['AUTHORIZATION_TOKEN']}"
